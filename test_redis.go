@@ -6,7 +6,6 @@ import (
     "io/ioutil"
 )
 
-
 func main() {
     // connect to  redis
     c, err := redis.Dial("tcp", ":6379")
